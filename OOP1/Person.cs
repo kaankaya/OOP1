@@ -18,36 +18,23 @@ namespace OOP1
         public string Name
         {
             get
-            {
-                return name;
-            }
+            { return name; }
             set
-            {
-                name = value;
-            }
+            { name = value; }
         }//End Property Name
 
         public string Surname
         {
-            get
-            {
-                return surname;
-            }
-            set
-            {
-                surname = value;
-            }
+            get{ return surname; }
+            set{ surname = value; }
         }//End Property Surname
 
         public int DateOfBirth
         {
-            get
-            {
-                return dateOfBirth;
-            }
+            get{ return dateOfBirth; }
             set
             {
-                if(value > 0)
+                if (value > 0)
                 {
                     dateOfBirth = value;
                 }
@@ -60,14 +47,8 @@ namespace OOP1
 
         public string Role
         {
-            get
-            {
-                return role;
-            }
-            set
-            {
-                role = value;
-            }
+            get{ return role; }
+            set{ role = value; }
         }//End property Role
 
         //Listeleme Methodumuz
